@@ -170,7 +170,7 @@ namespace freenect_camera {
       }
 
       OutputMode getDefaultImageMode() const {
-        return FREENECT_RESOLUTION_MEDIUM;
+        return FREENECT_RESOLUTION_HIGH;
       }
 
       bool findCompatibleImageMode(const OutputMode& mode, OutputMode& compatible_mode) const {
